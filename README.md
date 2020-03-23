@@ -10,7 +10,7 @@ To build the rust clients run (requires rust to be installed)
 
 To start a cluster of 1 broker run
 ```
-./start-cluster-of-1.sh
+./run-cluster-of-1.sh
 ```
 
 To run the rust producer
