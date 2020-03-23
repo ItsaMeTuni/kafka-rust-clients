@@ -1,11 +1,17 @@
 Run
-```./download-kafka.sh```
+```
+./download-kafka.sh
+```
 
 To build the rust clients run (requires rust to be installed)
-```./build-rust-clients.sh```
+```
+./build-rust-clients.sh
+```
 
 To start a cluster of 1 broker run
-```./start-cluster-of-1.sh```
+```
+./start-cluster-of-1.sh
+```
 
 To run the rust producer
 ```
