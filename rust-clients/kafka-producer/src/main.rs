@@ -9,7 +9,7 @@ fn main()
 
     let mut producer = 
         Producer::from_hosts(vec!("localhost:9092".to_owned()))
-        .with_ack_timeout(Duration::from_secs(1))
+        .with_ack_timeout(Duration::from_secs(5))
         .with_required_acks(RequiredAcks::One)
         .create()
         .unwrap();
